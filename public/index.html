@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RDC's Recruitment Management System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ LOGIN SCREEN ============ -->
+<div id="login-screen" class="login-screen">
+  <aside class="login-side">
+    <div class="login-brand"><span class="brand-mark">RDC</span> RDC’s Recruitment Management System</div>
+    <div>
+      <div class="login-statement">Every vacancy, candidate and joining in one place.</div>
+      <p class="login-statement-sub">For the hiring teams of RDC Concrete, UMAPL and ROBO Silicon.</p>
+    </div>
+    <div class="hazard" aria-hidden="true"></div>
+  </aside>
+  <div class="login-main">
+    <div class="login-panel">
+      <h1>Sign in</h1>
+      <p class="login-lead">Use the username and password given to you by HR.</p>
+      <form id="login-form" class="login-form">
+        <label class="field">
+          <span>Username</span>
+          <input type="text" id="login-username" autocomplete="username" required autofocus>
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <input type="password" id="login-password" autocomplete="current-password" required>
+        </label>
+        <div id="login-error" class="login-error" hidden></div>
+        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ============ APP SHELL ============ -->
+<div id="app-shell" class="app-shell" hidden>
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-mark">RDC</span>
+      <div class="brand-title">RDC's Recruitment<br>Management System</div>
+    </div>
+
+    <nav class="nav-groups" id="nav-groups">
+      <!-- populated by app.js -->
+    </nav>
+
+    <div class="sidebar-foot">
+      <div class="user-chip" id="sidebar-user-chip"></div>
+      <button id="logout-btn" class="link-btn">Sign out</button>
+    </div>
+  </aside>
+
+  <div class="main-col">
+    <header class="topbar">
+      <div class="topbar-search">
+        <input type="text" id="global-search" placeholder="Search candidates, vacancies, clients&hellip;" autocomplete="off">
+        <div id="global-search-results" class="search-results" hidden></div>
+      </div>
+      <div class="topbar-right">
+        <span id="topbar-role" class="role-tag"></span>
+      </div>
+    </header>
+
+    <main class="content" id="content">
+      <!-- populated by app.js -->
+    </main>
+  </div>
+</div>
+
+<!-- ============ DRAWER (add/edit forms) ============ -->
+<div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
+<aside id="drawer" class="drawer" hidden>
+  <div class="drawer-head">
+    <h2 id="drawer-title">&nbsp;</h2>
+    <button id="drawer-close" class="icon-btn" aria-label="Close">&times;</button>
+  </div>
+  <form id="drawer-form" class="drawer-form">
+    <div id="drawer-fields" class="drawer-fields"></div>
+    <div id="drawer-error" class="form-error" hidden></div>
+    <div class="drawer-actions">
+      <button type="button" id="drawer-cancel" class="btn btn-ghost">Cancel</button>
+      <button type="submit" class="btn btn-primary" id="drawer-save">Save</button>
+    </div>
+  </form>
+</aside>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>

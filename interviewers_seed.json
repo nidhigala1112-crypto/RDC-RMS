@@ -1,0 +1,416 @@
+[
+ {
+  "employee_code": "M00197",
+  "name": "Manoj Chandwani",
+  "designation": "Business Manager",
+  "city": "Goa",
+  "company": "RDC Concrete India Limited",
+  "location": "GOA-Goa 1",
+  "email": "manoj.chandwani@rdc.in"
+ },
+ {
+  "employee_code": "N00105",
+  "name": "Nitish Kumar Tiwari",
+  "designation": "Business Manager",
+  "city": "Gujarat",
+  "company": "RDC Concrete India Limited",
+  "location": "GUJ-Surat 1",
+  "email": "nitish.tiwari@rdc.in"
+ },
+ {
+  "employee_code": "J00075",
+  "name": "Shukla Jalpeshbhai Rameshbhai",
+  "designation": "Assistant General Manager - Sales",
+  "city": "Gujarat",
+  "company": "RDC Concrete India Limited",
+  "location": "GUJ- Hazira Commercial",
+  "email": "shukla.jalpeshbhai@rdc.in"
+ },
+ {
+  "employee_code": "K00052",
+  "name": "Kumarappa S.",
+  "designation": "Deputy General Manager - Sales and Marketing",
+  "city": "Bangalore",
+  "company": "RDC Concrete India Limited",
+  "location": "BG - Area Office",
+  "email": "kumarappa.s@rdc.in"
+ },
+ {
+  "employee_code": "R00126",
+  "name": "Rajesh Kumar Mane",
+  "designation": "Assistant General Manager - Accounts",
+  "city": "Hyderabad",
+  "company": "RDC Concrete India Limited",
+  "location": "HYD - Area Office",
+  "email": "rajeshkumar.m@rdc.in"
+ },
+ {
+  "employee_code": "R00142",
+  "name": "Ramakrishna Ponnada",
+  "designation": "Deputy General Manager - Sales",
+  "city": "Hyderabad",
+  "company": "RDC Concrete India Limited",
+  "location": "HYD - Area Office",
+  "email": "ramakrishna.p@rdc.in"
+ },
+ {
+  "employee_code": "A00031",
+  "name": "Amit Gurtoo",
+  "designation": "Deputy General Manager-Business",
+  "city": "NCR",
+  "company": "RDC Concrete India Limited",
+  "location": "NCR-Area Office",
+  "email": "amitg@rdc.in"
+ },
+ {
+  "employee_code": "R00308",
+  "name": "Rakesh Kumar Gupta",
+  "designation": "Assistant General Manager - Operations",
+  "city": "NCR",
+  "company": "RDC Concrete India Limited",
+  "location": "NCR-Area Office",
+  "email": "rakesh.gupta@rdc.in"
+ },
+ {
+  "employee_code": "M00244",
+  "name": "Manoj Kumar",
+  "designation": "Business Manager",
+  "city": "Uttarakhand",
+  "company": "RDC Concrete India Limited",
+  "location": "UTR-Dehradun",
+  "email": "manoj.kumar@rdc.in"
+ },
+ {
+  "employee_code": "P00151",
+  "name": "P Raghu",
+  "designation": "Business Manager",
+  "city": "Bangalore",
+  "company": "RDC Concrete India Limited",
+  "location": "BG - Area Office",
+  "email": "raghu.p@rdc.in"
+ },
+ {
+  "employee_code": "A00241",
+  "name": "AnilKumar Karanappa Angadi",
+  "designation": "Business Manager",
+  "city": "Bangalore",
+  "company": "RDC Concrete India Limited",
+  "location": "BG - Area Office",
+  "email": "anilkumar@rdc.in"
+ },
+ {
+  "employee_code": "S00443",
+  "name": "Sagar Anil Mane",
+  "designation": "Business Manager",
+  "city": "Bangalore",
+  "company": "RDC Concrete India Limited",
+  "location": "BG - Area Office",
+  "email": "sagar.mane@rdc.in"
+ },
+ {
+  "employee_code": "D00078",
+  "name": "Deepak Kumar Singh",
+  "designation": "Business Manager",
+  "city": "Bihar",
+  "company": "RDC Concrete India Limited",
+  "location": "BHR-Patna Comm",
+  "email": "deepak.singh@rdc.in"
+ },
+ {
+  "employee_code": "R00063",
+  "name": "Brijesh Kumar",
+  "designation": "Business Manager",
+  "city": "Gujarat",
+  "company": "RDC Concrete India Limited",
+  "location": "GUJ-Vadodara - Dumad",
+  "email": "brijesh.kumar@rdc.in"
+ },
+ {
+  "employee_code": "U00008",
+  "name": "Umesh Ramesh Gawade",
+  "designation": "Head Finance and Accounts",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "umesh.gawade@rdc.in"
+ },
+ {
+  "employee_code": "D00084",
+  "name": "Deepak Shrivastava",
+  "designation": "Deputy General Manager - Procurement",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "deepak.shrivastava@rdc.in"
+ },
+ {
+  "employee_code": "A00201",
+  "name": "Anesh Maruti Gaikwad",
+  "designation": "Head-Logistics and Distribution",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "anesh.gaikwad@rdc.in"
+ },
+ {
+  "employee_code": "A00273",
+  "name": "Amit Thakur",
+  "designation": "Head Safety",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "amit.thakur@rdc.in"
+ },
+ {
+  "employee_code": "TE00233",
+  "name": "Avijit Chaubey",
+  "designation": "Head Technical",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "avijit.chaubey@rdc.in"
+ },
+ {
+  "employee_code": "D00071",
+  "name": "Durgadatta Mohanty",
+  "designation": "Business Manager",
+  "city": "Orrisa",
+  "company": "RDC Concrete India Limited",
+  "location": "ODI-Area Office",
+  "email": "durga.mohanty@rdc.in"
+ },
+ {
+  "employee_code": "K00137",
+  "name": "Kuntal Kumar Haldar",
+  "designation": "Business Manager",
+  "city": "Chattisgarh",
+  "company": "RDC Concrete India Limited",
+  "location": "CHA-Raipur 1",
+  "email": "kuntal.haldar@rdc.in"
+ },
+ {
+  "employee_code": "M00102",
+  "name": "M. Manikumar",
+  "designation": "Business Manager",
+  "city": "Chennai",
+  "company": "RDC Concrete India Limited",
+  "location": "CHE - Area Office",
+  "email": "mani.kumar@rdc.in"
+ },
+ {
+  "employee_code": "R00262",
+  "name": "Ruchit Parasmal Jain",
+  "designation": "Assistant General Manager - Technical",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "ruchit.jain@rdc.in"
+ },
+ {
+  "employee_code": "V00149",
+  "name": "Vimal Sethi",
+  "designation": "Head HR",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "vimal.sethi@rdc.in"
+ },
+ {
+  "employee_code": "N00131",
+  "name": "Nagesh Tiwari",
+  "designation": "Assistant General Manager - IT",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "nagesh.tiwari@rdc.in"
+ },
+ {
+  "employee_code": "S00464",
+  "name": "Saptarshi Mazumder",
+  "designation": "Deputy General Manager-Business",
+  "city": "Kolkata",
+  "company": "RDC Concrete India Limited",
+  "location": "KOL - Area Office",
+  "email": "saptarshi.mazumder@rdc.in"
+ },
+ {
+  "employee_code": "I00002",
+  "name": "Imran Allabaksh Desai",
+  "designation": "Business Manager",
+  "city": "Pune",
+  "company": "RDC Concrete India Limited",
+  "location": "PUN-TPL Metro",
+  "email": "imran.desai@rdc.in"
+ },
+ {
+  "employee_code": "S00403",
+  "name": "Sanjeev Kumar",
+  "designation": "Business Manager",
+  "city": "Punjab",
+  "company": "RDC Concrete India Limited",
+  "location": "PB-Mohali",
+  "email": "sanjeev.singh@rdc.in"
+ },
+ {
+  "employee_code": "A00284",
+  "name": "Aditya Singhal",
+  "designation": "Business Manager",
+  "city": "Punjab",
+  "company": "RDC Concrete India Limited",
+  "location": "PB-Ludhiana",
+  "email": "aditya.singhal@rdc.in"
+ },
+ {
+  "employee_code": "P00160",
+  "name": "Premkumar G",
+  "designation": "Business Manager",
+  "city": "Chennai",
+  "company": "RDC Concrete India Limited",
+  "location": "CHE - Area Office",
+  "email": "premkumar.g@rdc.in"
+ },
+ {
+  "employee_code": "A00148",
+  "name": "Anil Kumar Banchhor",
+  "designation": "Managing Director & CEO",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "anil@rdc.in"
+ },
+ {
+  "employee_code": "K00089",
+  "name": "K S Bhoon",
+  "designation": "Chief Operating and Technology Officer",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "ksbhoon@rdc.in"
+ },
+ {
+  "employee_code": "S00121",
+  "name": "Suresh Kumar S.",
+  "designation": "Head Information Technology",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "suresh.kumar@rdc.in"
+ },
+ {
+  "employee_code": "S00319",
+  "name": "Sanjay Katoch",
+  "designation": "Assistant General Manager - Projects",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "sanjay.katoch@rdc.in"
+ },
+ {
+  "employee_code": "V00103",
+  "name": "V Ramasubramanian",
+  "designation": "Head-Projects",
+  "city": "HO",
+  "company": "RDC Concrete India Limited",
+  "location": "Head Office",
+  "email": "v.ramasubramanian@rdc.in"
+ },
+ {
+  "employee_code": "N00139",
+  "name": "Nalamati Srinivasa Rao",
+  "designation": "Assistant General Manager - Technical",
+  "city": "Kolkata",
+  "company": "RDC Concrete India Limited",
+  "location": "KOL - Area Office",
+  "email": "srinivasa.nalamati@rdc.in"
+ },
+ {
+  "employee_code": "V00071",
+  "name": "Vishwath K",
+  "designation": "Business Manager",
+  "city": "Mangalore",
+  "company": "RDC Concrete India Limited",
+  "location": "KAR-Mangalore",
+  "email": "vishwath.k@rdc.in"
+ },
+ {
+  "employee_code": "S00357",
+  "name": "Syed Mohammad Faiz Akhtar",
+  "designation": "Assistant General Manager - Technical",
+  "city": "NCR",
+  "company": "RDC Concrete India Limited",
+  "location": "NCR-Area Office",
+  "email": "faiz.akhtar@rdc.in"
+ },
+ {
+  "employee_code": "S00294",
+  "name": "Syamprasad Diyya",
+  "designation": "Assistant General Manager - Operations",
+  "city": "Hyderabad",
+  "company": "RDC Concrete India Limited",
+  "location": "HYD - Area Office",
+  "email": "syam.diyya@rdc.in"
+ },
+ {
+  "employee_code": "V00102",
+  "name": "Anantha Vamshider Reddy",
+  "designation": "Assistant General Manager - Technical",
+  "city": "Hyderabad",
+  "company": "RDC Concrete India Limited",
+  "location": "HYD - Area Office",
+  "email": "vamshider.anantha@rdc.in"
+ },
+ {
+  "employee_code": "V00115",
+  "name": "Venu Kommaraju",
+  "designation": "Assistant General Manager - Sales",
+  "city": "Hyderabad",
+  "company": "RDC Concrete India Limited",
+  "location": "HYD - Area Office",
+  "email": "venu.kommaraju@rdc.in"
+ },
+ {
+  "employee_code": "M00119",
+  "name": "Mohd. Haseeb Khan",
+  "designation": "Deputy General Manager - Technical",
+  "city": "Mumbai",
+  "company": "RDC Concrete India Limited",
+  "location": "MUM - Area Office",
+  "email": "haseeb.khan@rdc.in"
+ },
+ {
+  "employee_code": "P00119",
+  "name": "Pawan Kumar Singh",
+  "designation": "Business Manager",
+  "city": "Mumbai",
+  "company": "RDC Concrete India Limited",
+  "location": "MUM - Area Office",
+  "email": "pawan.singh1@rdc.in"
+ },
+ {
+  "employee_code": "S00417",
+  "name": "Sandeep Ganhar",
+  "designation": "Business Manager",
+  "city": "Mumbai",
+  "company": "RDC Concrete India Limited",
+  "location": "MUM - Area Office",
+  "email": "sandeep.ganhar@rdc.in"
+ },
+ {
+  "employee_code": "R00258",
+  "name": "Rahul Hemraj Pawar",
+  "designation": "Business Manager",
+  "city": "Mumbai",
+  "company": "RDC Concrete India Limited",
+  "location": "MUM - Area Office",
+  "email": "rahul.pawar1@rdc.in"
+ },
+ {
+  "employee_code": "N00114",
+  "name": "Nitin Sharma",
+  "designation": "Business Manager",
+  "city": "NCR",
+  "company": "RDC Concrete India Limited",
+  "location": "NCR-Area Office",
+  "email": "nitin.sharma@rdc.in"
+ }
+]

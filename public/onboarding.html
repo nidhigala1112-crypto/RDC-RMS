@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Onboarding form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<style>
+  body { background: var(--concrete); }
+  .ob-page { max-width: 760px; margin: 0 auto; padding: 28px 16px 80px; }
+  .ob-top { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; font-family: var(--font-head); font-weight: 600; font-size: 17px; }
+  .ob-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); padding: 22px 24px; margin-bottom: 16px; }
+  .ob-card h1 { font-size: 26px; margin-bottom: 4px; letter-spacing: -0.03em; }
+  .ob-card h2 { font-size: 18px; margin: 0 0 4px; }
+  .ob-meta { color: var(--muted); font-size: 14px; }
+  .ob-note { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+  .ob-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 16px; margin-top: 12px; }
+  @media (max-width: 600px) { .ob-grid { grid-template-columns: 1fr; } }
+  .ob-f { display: flex; flex-direction: column; gap: 5px; }
+  .ob-f.wide { grid-column: 1 / -1; }
+  .ob-f > span { font-weight: 600; font-size: 13.5px; }
+  .ob-f .req { color: #C93C37; }
+  .ob-f input, .ob-f select, .ob-f textarea { font-size: 15px; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: var(--radius); font-family: var(--font-body); background: #fff; width: 100%; }
+  .ob-f textarea { min-height: 70px; resize: vertical; }
+  .ob-f input:focus, .ob-f select:focus, .ob-f textarea:focus { outline: none; border-color: var(--steel-light); box-shadow: 0 0 0 3px rgba(45,109,168,0.18); }
+  .ob-f.bad input, .ob-f.bad select, .ob-f.bad textarea { border-color: #C93C37; background: #FFF6F5; }
+  .ob-hint { color: var(--muted); font-size: 12px; }
+  .ob-err { color: #A8302B; font-size: 12.5px; font-weight: 600; }
+  .ob-check { display: flex; align-items: center; gap: 10px; font-size: 14.5px; }
+  .ob-check input { width: 18px; height: 18px; }
+  .ob-doc { padding: 12px 0; border-top: 1px solid var(--line); }
+  .ob-doc:first-of-type { border-top: none; }
+  .ob-doc-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .ob-doc-name { font-weight: 600; font-size: 14.5px; }
+  .ob-files { margin-top: 6px; display: flex; flex-direction: column; gap: 4px; }
+  .ob-file { display: flex; align-items: center; gap: 8px; font-size: 13px; background: #F1F6F3; border-radius: 6px; padding: 5px 10px; }
+  .ob-file button { border: none; background: none; color: #A8302B; cursor: pointer; font-size: 13px; margin-left: auto; }
+  .ob-bar { position: sticky; bottom: 0; background: rgba(255,255,255,0.96); border-top: 1px solid var(--line); padding: 12px 16px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 0 -16px; backdrop-filter: blur(4px); }
+  .ob-msg { padding: 40px 24px; text-align: center; }
+  .ob-msg h1 { font-size: 24px; margin-bottom: 8px; }
+  .ob-banner { border-radius: var(--radius); padding: 10px 14px; font-size: 13.5px; margin-bottom: 16px; }
+  .ob-banner.info { background: #E4F0FA; border: 1px solid #B9D5EC; color: #1B4B73; }
+  .ob-banner.ok { background: #DDF1EA; border: 1px solid #A9D8C6; color: #176B53; }
+  .ob-banner.bad { background: #FBE0DE; border: 1px solid #EBB6B3; color: #A8302B; }
+  .ob-prog { height: 6px; background: #E3E8EB; border-radius: 3px; overflow: hidden; margin-top: 12px; }
+  .ob-prog > div { height: 100%; background: var(--steel); width: 0; transition: width .25s; }
+</style>
+</head>
+<body>
+<div class="ob-page" id="page">
+  <div class="ob-top"><span class="brand-mark">RDC</span> Onboarding form</div>
+  <div id="root"><div class="ob-card ob-msg"><div class="text-muted">Loading…</div></div></div>
+</div>
+<script src="/onboarding.js"></script>
+</body>
+</html>

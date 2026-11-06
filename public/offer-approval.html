@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Offer approval</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<style>
+  body { background: var(--concrete); }
+  .sc-page { max-width: 680px; margin: 0 auto; padding: 28px 16px 64px; }
+  .sc-top { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; font-family: var(--font-head); font-weight: 600; font-size: 17px; }
+  .sc-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); padding: 22px 24px; margin-bottom: 16px; }
+  .sc-card h1 { font-size: 26px; margin-bottom: 4px; letter-spacing: -0.03em; }
+  .sc-meta { color: var(--muted); font-size: 14px; }
+  .sc-meta strong { color: var(--text); }
+  .sc-section-title { font-family: var(--font-head); font-weight: 600; font-size: 17px; margin-bottom: 4px; }
+  .sc-scale { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+  .sc-crit { padding: 12px 0; border-top: 1px solid var(--line); }
+  .sc-crit:first-of-type { border-top: none; }
+  .sc-crit-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .sc-crit-name { font-weight: 600; }
+  .sc-crit-hint { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .sc-btn { width: 44px; height: 44px; font-size: 15px; }
+  .sc-reco { display: flex; gap: 8px; flex-wrap: wrap; }
+  .sc-reco button { flex: 1 1 100px; padding: 12px; border-radius: var(--radius); border: 1px solid var(--line-strong); background: var(--surface); font-weight: 600; cursor: pointer; font-size: 14px; }
+  .sc-reco button.on[data-v="Proceed"] { background: #DDF1EA; border-color: #1F8A6B; color: #176B53; }
+  .sc-reco button.on[data-v="Hold"] { background: #FCEFD2; border-color: #C77A00; color: #8F5700; }
+  .sc-reco button.on[data-v="Reject"] { background: #FBE0DE; border-color: #C93C37; color: #A8302B; }
+  .sc-overall-line { display: flex; justify-content: space-between; align-items: baseline; margin-top: 4px; }
+  .sc-overall-line strong { font-family: var(--font-head); font-size: 26px; color: var(--steel); }
+  .sc-msg { padding: 40px 24px; text-align: center; }
+  .sc-msg h1 { font-size: 24px; margin-bottom: 8px; }
+  .sc-note { background: #E4F0FA; border: 1px solid #B9D5EC; color: #1B4B73; border-radius: var(--radius); padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
+  .sc-foot { color: var(--muted); font-size: 12.5px; text-align: center; margin-top: 8px; }
+  textarea { width: 100%; font-size: 15px; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: var(--radius); min-height: 84px; resize: vertical; font-family: var(--font-body); }
+  textarea:focus { outline: none; border-color: var(--steel-light); box-shadow: 0 0 0 3px rgba(45,109,168,0.18); }
+  label.sc-label { display: block; font-weight: 600; font-size: 14px; margin: 14px 0 6px; }
+
+  .oa-table { width: 100%; border-collapse: collapse; margin: 10px 0 4px; }
+  .oa-table td { padding: 8px 4px; border-bottom: 1px solid var(--line); font-size: 14px; vertical-align: top; }
+  .oa-table td:first-child { color: var(--muted); width: 48%; }
+  .oa-pad { border: 1.5px dashed var(--line-strong); border-radius: var(--radius); background: #fff; touch-action: none; width: 100%; height: 150px; display: block; cursor: crosshair; }
+  input[type=text] { width: 100%; font-size: 15px; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: var(--radius); }
+  .oa-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+  .oa-actions .btn { flex: 1 1 180px; padding: 13px; font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="sc-page" id="page">
+  <div class="sc-top"><span class="brand-mark">RDC</span> Offer approval</div>
+  <div id="root"><div class="sc-card sc-msg"><div class="text-muted">Loading…</div></div></div>
+</div>
+<script src="/offer-approval.js"></script>
+</body>
+</html>
